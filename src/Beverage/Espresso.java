@@ -3,9 +3,14 @@ package Beverage;
 /**
  * @author Nitin
  */
-public class Espresso extends Beverage{
+public class Espresso extends Beverage {
+
+    public Espresso() {
+        desc = "Espresso";
+    }
+
     @Override
-    public int cost(){
-        return super.cost() + 30;
+    public int cost() {
+        return 30;
     }
 }
