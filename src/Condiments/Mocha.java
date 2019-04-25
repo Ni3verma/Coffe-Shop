@@ -7,10 +7,8 @@ import Beverage.Beverage;
  */
 public class Mocha extends CondimentDecorator {
 
-    Beverage beverage;
-
     public Mocha(Beverage b) {
-        this.beverage = b;
+        beverage = b;
     }
 
     @Override

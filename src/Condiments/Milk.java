@@ -7,10 +7,8 @@ import Beverage.Beverage;
  */
 public class Milk extends CondimentDecorator {
 
-    Beverage beverage;
-
     public Milk(Beverage b) {
-        this.beverage = b;
+        beverage = b;
     }
 
     @Override
